@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|top"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/main_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/action_bar_size"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:minHeight="@dimen/action_bar_size">
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/et_rounded"
+                android:hint="Ime restorana"
+                android:inputType="textCapSentences"
+                android:padding="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/et_rounded"
+                android:hint="Adresa"
+                android:inputType="textPostalAddress"
+                android:padding="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:inputType="phone"
+                android:background="@drawable/et_rounded"
+                android:gravity="center_vertical|start"
+                android:hint="Telefon"
+                android:padding="10dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:inputType="text"
+                android:background="@drawable/et_rounded"
+                android:gravity="center_vertical|start"
+                android:hint="Slika"
+                android:padding="10dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/save_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/btn_rounded"
+                android:text="SAČUVAJ"
+                android:textColor="@color/white" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

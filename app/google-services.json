@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "198274788835",
+    "firebase_url": "https://restorani-2960b-default-rtdb.firebaseio.com",
+    "project_id": "restorani-2960b",
+    "storage_bucket": "restorani-2960b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198274788835:android:40af261e8bc04c2fce44d6",
+        "android_client_info": {
+          "package_name": "com.restorani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198274788835-nh3b0mcgd4cbbv3a9d34vbs401id8sru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdzqeZBb7bMZ6ztCV2v7G7ie13mofcpiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198274788835-nh3b0mcgd4cbbv3a9d34vbs401id8sru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

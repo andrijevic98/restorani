@@ -1,0 +1,48 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSecondary"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/comment_rounded"
+            android:gravity="start"
+            android:minHeight="100dp"
+            android:padding="8dp" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="1"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:progressBackgroundTint="@color/yellowFade"
+            android:progressTint="@color/yellow"
+            android:stepSize="1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:background="@drawable/btn_rounded"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text="POŠALJI" />
+
+
+    </LinearLayout>
+
+
+</layout>
